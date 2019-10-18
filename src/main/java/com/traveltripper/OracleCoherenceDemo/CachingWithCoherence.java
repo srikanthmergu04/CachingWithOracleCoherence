@@ -51,6 +51,8 @@ public class CachingWithCoherence {
     	  
       }while(status.equalsIgnoreCase("yes"));
       
-      
+      if(status.equalsIgnoreCase("no")) {
+    	  System.out.println("Cache Server Stopped....");
+      }
    }
 }
